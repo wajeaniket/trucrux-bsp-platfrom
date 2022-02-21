@@ -9,6 +9,7 @@
   <remote fetch="https://github.com/meta-qt5"                                 name="QT5"/>
   <remote fetch="https://github.com/sbabic"                                   name="sbabic"/>
   <remote fetch="https://github.com/Trucrux"                                  name="trucrux"/>
+  <remote fetch="https://github.com/wajeaniket"                               name="aniket"/>
 
   <project remote="yocto"     revision="2a848e95074318f3a243df7b3f40513a13173a82" upstream="dunfell"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="12c3eed6a90b436565126d8ba6934f794b816e25" upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
@@ -17,7 +18,7 @@
 
   <project remote="oe"        revision="b901080cf57d9a7f5476ab4d96e56c30db8170a8" upstream="dunfell"   name="meta-python2"            path="sources/meta-python2"/>
 
-  <project remote="trucrux"   revision="4f7f9fe2d8c89bba6ca4fd5a3dc417f839f3577d" upstream="dunfell"   name="trucrux-bsp-base"        path="sources/base">
+  <project remote="trucrux"   revision="6c3be640482ef95717e95c0e2bfe0249de340953" upstream="dunfell"   name="trucrux-bsp-base"        path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -29,6 +30,5 @@
   <project remote="QT5"       revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"           name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    revision="72b493c7ed9f5e1fb4ae1ce180f913acc29748c5" upstream="dunfell"           name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="758868633be479f38d19c3602be0094289fc1a75" upstream="dunfell"           name="meta-virtualization"     path="sources/meta-virtualization"/>
-  <project remote="trucrux" revision="b8da388f28182063aa8d5c05cd57888b3a0996c8"   upstream="dunfell_develop"   name="meta-trucrux"            path="sources/meta-trucrux"/>
-
+  <project remote="aniket"   revision="b4837ff4e4060383429832debd100e7ea767c794" upstream="dunfell"           name="meta-trucrux"            path="sources/meta-trucrux"/>	
 </manifest>
